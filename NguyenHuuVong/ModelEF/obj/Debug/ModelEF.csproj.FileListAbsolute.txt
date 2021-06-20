@@ -1,0 +1,15 @@
+D:\Documents\HK220\C#\BTCK\NguyenHuuVong\ModelEF\bin\Debug\ModelEF.dll.config
+D:\Documents\HK220\C#\BTCK\NguyenHuuVong\ModelEF\bin\Debug\ModelEF.dll
+D:\Documents\HK220\C#\BTCK\NguyenHuuVong\ModelEF\bin\Debug\ModelEF.pdb
+D:\Documents\HK220\C#\BTCK\NguyenHuuVong\ModelEF\bin\Debug\EntityFramework.dll
+D:\Documents\HK220\C#\BTCK\NguyenHuuVong\ModelEF\bin\Debug\EntityFramework.SqlServer.dll
+D:\Documents\HK220\C#\BTCK\NguyenHuuVong\ModelEF\bin\Debug\EntityFramework.xml
+D:\Documents\HK220\C#\BTCK\NguyenHuuVong\ModelEF\bin\Debug\EntityFramework.SqlServer.xml
+D:\Documents\HK220\C#\BTCK\NguyenHuuVong\ModelEF\obj\Debug\ModelEF.csproj.CoreCompileInputs.cache
+D:\Documents\HK220\C#\BTCK\NguyenHuuVong\ModelEF\obj\Debug\ModelEF.csproj.CopyComplete
+D:\Documents\HK220\C#\BTCK\NguyenHuuVong\ModelEF\obj\Debug\ModelEF.dll
+D:\Documents\HK220\C#\BTCK\NguyenHuuVong\ModelEF\obj\Debug\ModelEF.pdb
+D:\Documents\HK220\C#\BTCK\NguyenHuuVong\ModelEF\bin\Debug\PagedList.dll
+D:\Documents\HK220\C#\BTCK\NguyenHuuVong\ModelEF\bin\Debug\PagedList.Mvc.dll
+D:\Documents\HK220\C#\BTCK\NguyenHuuVong\ModelEF\bin\Debug\PagedList.xml
+D:\Documents\HK220\C#\BTCK\NguyenHuuVong\ModelEF\bin\Debug\PagedList.Mvc.xml

@@ -1,0 +1,60 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+
+}
+@model IEnumerable<ModelEF.Model.Product>
+<div class="col-sm-3">
+    <h3 class="box-title"><i class="fa fa-list"></i> Category</h3>
+    <ul class="nav nav-pills flex-column">
+        @if (ViewBag.CategoryList != null)
+        {
+            foreach (var item1 in ViewBag.CategoryList)
+            {
+                <li class="nav-item">
+                    <a class="nav-link active" href="/Products?id=@item1.CategoryID&name=@item1.CategoryName">@item1.CategoryName</a>
+                </li>
+            }
+        }
+    </ul>
+    <hr class="d-sm-none">
+</div>
+<!-- Kết thúc cột trái -->
+<!-- Cột giữa -->
+<div class="col-sm-9">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://www.muradvietnam.vn/Data/Sites/1/Banner/duoc-my-pham-murad-banner-san-pham.jpg" class="d-block w-100" height="250px" alt="...">
+            </div>
+        </div>
+        <div class="carousel-inner" style="margin-top: 15px">
+            <div class="carousel-item  active">
+                <img src="https://www.muradvietnam.vn/Data/Sites/1/Banner/bannerwebvitaceyes_optimized-(1).jpg" class="d-block w-100" height="250px" alt="...">
+            </div>
+        </div>
+
+    </div>
+    <div class="container">
+        <div class="row mt-5">
+            <div class="product-group">
+                <div class="row">
+                    @foreach (var item in Model)
+                    {
+
+                        <div class="col-md-3 col-sm-6 col-12">
+                            <div class="card card-product mb-3">
+                                <img class="card-img-top" width="300px" height="200px" src="https://www.muradvietnam.vn/@item.Image" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">@Html.DisplayFor(modelItem => item.ProductName)</h5>
+                                    <h5 class="card-title">@Html.DisplayFor(modelItem => item.UnitCost) đ</h5>
+                                    <a href="/productInfo?id=@item.ProductID" class="btn btn-primary">Buy now</a>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Kết thúc cột giữa -->
